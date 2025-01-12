@@ -1,0 +1,53 @@
+<fieldset class="signFieldSet">
+<legend> Signin / Signup </legend>
+
+<label for="loginCheckBox" ng-click="loginCheckBoxLabel()"><input type="checkbox" class="loginCheckBox" id="loginCheckBox"> Login</label>
+
+<label for="signupCheckBox" ng-click="signupCheckBoxLabel()"><input type="checkbox" class="signupCheckBox" id="signupCheckBox"> Signup</label>
+</fieldset>
+
+<form method="POST" class="signupForm" ng-show="showSignupForm">
+<h4>Signup</h4>
+
+<div>
+<input type="text" placeholder="Username" name="signupName" class="signupName">
+<input type="email" placeholder="Email" name="signupEmail" class="signupEmail">
+<input type="password" placeholder="Passsword" name="signupPassword" class="signupPassword">
+<input type="submit" value="Submit">
+</div>
+<p>Terms & Conditions / Privacy</p>
+</form>
+<form method="GET" class="loginForm" ng-show="showLoginForm">
+<h4>Login</h4>
+
+<div>
+<input type="email" placeholder="Email" name="loginEmail" class="loginEmail">
+<input type="password" placeholder="Passsword" name="loginPassword">
+<input type="submit" value="Submit">
+</div>
+<p>Forgot password? click here to reset</p>
+</form>
+
+<div class="homeBody">
+<img src="legion.jpg" class="homeImg">
+
+<h4>Welcome to Mobile System EA</h4>
+<br>
+<p>MT4 & MT5 robots have been updated, execution of trades are 99.99% accurate and profitable</p>
+<p>All systems are running smoothly, Your mentor verification code is 1208</p>
+
+<div class="homeInnerParts">
+<h3>Why choose us?</h3>
+<p>- Quick execution</p>
+<p>- Stabilized robots</p>
+<p>- The Information of our clients are safe</p>
+<p>- Clients get to use the robots on mobile devices or their portable computers</p>
+</div>
+
+<div class="homeLastParts">
+<h3>Contact us</h3>
+<p>Email: submit@gmail.com</p>
+<p>WhatsApp: +27 60 568 3291</p>
+<p>Call: +27 60 568 3291</p>
+</div>
+</div>

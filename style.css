@@ -1,0 +1,128 @@
+*{
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+}
+button{
+cursor: pointer;
+transition: 0.3s;
+}
+body{
+background: white;
+text-align: center;
+}
+header{
+margin: 0 auto;
+padding: 2%;
+display: flex;
+justify-content: space-between;
+box-shadow: 0 0 6px black;
+background: #1E2579;
+}
+header h3{
+color: white;
+}
+header button{
+background: transparent;
+transform: rotate(90deg);
+font-size: 2.1vh;
+color: white;
+}
+main{
+margin: 0 auto;
+margin-top: 4%;
+}
+.signFieldSet{
+margin: 0 auto;
+padding: 3% 0;
+border: 2px solid darkgray;
+border-radius: 4px;
+width: 60%;
+display: flex;
+justify-content: space-around;
+}
+.signupForm, .loginForm{
+margin: 0 auto;
+width: 70%;
+box-shadow: 0 0 6px black;
+background: white;
+padding: 4% 2%;
+border-radius: 6px;
+margin-top: 5%;
+border: 1px solid black;
+}
+.loginForm div, .signupForm div{
+margin: 0 auto;
+margin-top: 3%;
+display: flex;
+flex-direction: column;
+}
+.loginForm div input, .signupForm div input{
+width: 100%;
+height: 3vh;
+margin-bottom: 1%;
+padding: 0 0 0 2%;
+border-radius: 6px;
+border-bottom: 3.5px solid black;
+cursor: pointer;
+color: black;
+}
+.loginForm div input::placeholder, .signupForm div input::placeholder{
+color: black;
+}
+.loginForm div input[type="submit"], .signupForm div input[type="submit"]{
+border: none;
+margin-top: 1.5%;
+margin-bottom: 0%;
+}
+.loginForm p, .signupForm p{
+color: dodgerblue;
+text-align: start;
+margin-top: 2.5%;
+margin-left: 1.3%;
+cursor: pointer;
+}
+.homeBody{
+margin: 0 auto;
+text-align: start;
+width: 80%;
+margin-top: 6%;
+}
+.homeBody p{
+margin-top: 2%;
+}
+.homeBody img{
+width: 100%;
+border-radius: 0%;
+margin-bottom: 10%;
+border: 2px solid #1E2579;
+box-shadow: 0 0 6px #1E2579;
+margin-left: 0%;
+}
+.homeInnerParts{
+margin: 0 auto;
+margin-top: 8%;
+padding-bottom: 2%;
+}
+.homeInnerParts p{
+margin-top: 1%;
+}
+.homeLastParts{
+margin: 0 auto;
+background: #1E2579;
+padding: 3% 2%;
+border-radius: 3px;
+margin-top: 5%;
+}
+.homeLastParts h3{
+text-shadow: 1px 1px white;
+color: dodgerblue;
+margin-bottom: 3;
+}
+.homeLastParts p{
+margin-top: 1%;
+color: white;
+}
